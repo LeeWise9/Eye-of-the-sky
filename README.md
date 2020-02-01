@@ -8,7 +8,7 @@ In this project, SegNet, U-Net etc. are used for semantic segmentation of satell
 本项目意在通过训练，使神经网络能够完成对高清卫星图像的语义分割。
 
 <p align="center">
-	<img src="https://github.com/LeeWise9/Img_repositories/blob/master/%E5%A4%A9%E7%A9%BA%E4%B9%8B%E7%9C%BC1.jpg" alt="Sample"  width="500">
+	<img src="https://github.com/LeeWise9/Img_repositories/blob/master/%E5%A4%A9%E7%A9%BA%E4%B9%8B%E7%9C%BC1.jpg" alt="Sample"  width="300">
 </p>
 
 
@@ -18,13 +18,13 @@ In this project, SegNet, U-Net etc. are used for semantic segmentation of satell
 
 ### SegNet
 <p align="center">
-	<img src="https://images2017.cnblogs.com/blog/1093303/201801/1093303-20180122200010084-939706515.png" alt="Sample"  width="500">
+	<img src="https://images2017.cnblogs.com/blog/1093303/201801/1093303-20180122200010084-939706515.png" alt="Sample"  width="600">
 </p>
 
 ## U-Net
 
 <p align="center">
-	<img src="https://images2017.cnblogs.com/blog/1093303/201801/1093303-20180122200158397-1275935789.png" alt="Sample"  width="500">
+	<img src="https://images2017.cnblogs.com/blog/1093303/201801/1093303-20180122200158397-1275935789.png" alt="Sample"  width="600">
 </p>
 
 
