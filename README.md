@@ -1,18 +1,27 @@
 # Semantic-Segmentation-of-Satellite-Image
 In this project, SegNet, U-Net etc. are used for semantic segmentation of satellite images. Based on keras and runs on GPU.
 
-# 基于 Segnet 和 U-Net 的遥感图像语义分割
+这是一个应用深度学习方法解决工业问题的应用项目：使用改进的 SegNet、U-net 对卫星图像做语义分割。代码基于Keras编写，支持GPU加速。
 
-本项目中将使用改进的 SegNet 和 U-Net 对卫星图像做语义分割，基于 Keras 编写，支持 GPU 加速。
+## 问题描述
 
-## SegNet 网络结构
+本项目意在通过训练，使神经网络能够完成对高清卫星图像的语义分割。
 
+<p align="center">
+	<img src="https://github.com/LeeWise9/Img_repositories/blob/master/%E5%A4%A9%E7%A9%BA%E4%B9%8B%E7%9C%BC1.jpg" alt="Sample"  width="500">
+</p>
+
+
+## 网络结构
+
+本项目主要使用了 SegNet 和 U-Net，这两种网络都是语义分割领域常用的模型。
+
+### SegNet
 <p align="center">
 	<img src="https://images2017.cnblogs.com/blog/1093303/201801/1093303-20180122200010084-939706515.png" alt="Sample"  width="500">
 </p>
 
-
-## U-Net 网络结构
+## U-Net
 
 <p align="center">
 	<img src="https://images2017.cnblogs.com/blog/1093303/201801/1093303-20180122200158397-1275935789.png" alt="Sample"  width="500">
@@ -20,15 +29,6 @@ In this project, SegNet, U-Net etc. are used for semantic segmentation of satell
 
 
 ## 数据集
+本项目数据集来自于[DataFountain](https://www.datafountain.cn/#/competitions/270/data-intro)的一次公开赛，由于赛事已经结束，该数据集的官方获取渠道已经关闭。有参赛团队将下载的数据集公开了：[下载地址](https://pan.baidu.com/s/1i6oMukH)，提取密码：yqj2。
 
-[下载地址](https://pan.baidu.com/s/1i6oMukH)，提取密码：yqj2。
-
-## 注意
-
-* 1.数据 label 是深度为 16 的图像，无法使用 8 位图片查看器显示。
-
-* 2.推理时的图片通常为大尺寸高清图，需要先分割再输入到神经网络，将输出结果再拼接。
-
-* 3.上述分割后再拼接的思路易导致拼接边缘不平滑，可对输出结果做更进一步的剪裁与拼接。
-
-* 4.多模型融合采取投票的策略可以进一步改进，提升效果。
+需要注意的是，源数据仅包含 5 张高清卫星图和其对应的语义分割 mask 图像，其中 mask 图像为 16 位图像，一般的图像查看器显示为全黑色，需要转为 8 位才能正常查看。
