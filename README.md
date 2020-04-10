@@ -1,4 +1,4 @@
-# Semantic-Segmentation-of-Satellite-Image
+# Eye of the sky
 In this project, SegNet, U-Net etc. are used for semantic segmentation of satellite images. Based on keras and runs on GPU.
 
 这是一个应用深度学习方法解决工业问题的应用项目：使用改进的 SegNet、U-net 对卫星图像做语义分割。代码基于Keras编写，支持GPU加速。
